@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Work Day Planner</title>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ceed62c3c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Header for the page -->
+    <header>
+      <h1 class="title">Work Day Planner</h1>
+      <h2 class="date" id="date"></h2>
+    </header>
+
+    <!-- Main content including the planner -->
+    <div class="main-content">
+      <div class="planner-container">
+        <div class="time-slot">
+          <div class="time">9:00 AM</div>
+          <textarea class="content" id="9am">Check into class!</textarea>
+          <div class="save" id="saveNine"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">10:00 AM</div>
+          <textarea class="content" id="10am">Meeting</textarea>
+          <div class="save" id="saveTen"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">11:00 AM</div>
+          <textarea class="content" id="11am"></textarea>
+          <div class="save" id="saveEleven"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">12:00 AM</div>
+          <textarea class="content" id="12pm">Lunch</textarea>
+          <div class="save" id="saveTwelve"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">1:00 PM</div>
+          <textarea class="content" id="1pm">Work</textarea>
+          <div class="save" id="saveOne"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">2:00 PM</div>
+          <textarea class="content" id="2pm">Work</textarea>
+          <div class="save" id="saveTwo"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">3:00 PM</div>
+          <textarea class="content" id="3pm">Meeting</textarea>
+          <div class="save" id="saveThree"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">4:00 PM</div>
+          <textarea class="content" id="4pm">Work</textarea>
+          <div class="save" id="saveFour"><i class="fas fa-save"></i></div>
+        </div>
+        <div class="time-slot">
+          <div class="time">5:00 PM</div>
+          <textarea class="content" id="5pm">Work</textarea>
+          <div class="save" id="saveFive"><i class="fas fa-save"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.js"></script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
+  </body>
+</html>
