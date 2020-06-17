@@ -234,3 +234,5 @@ const checkTimes = () => {
   }
 
 }
+
+initPlanner();
