@@ -19,6 +19,8 @@ This app is built with HTML, CSS, Javascript and moment js.
 
 The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/Work Day Planner.gif)
+
+![Git](./Assets/Work Day Planner.gif) 
+
 
 
