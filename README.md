@@ -20,7 +20,7 @@ This app is built with HTML, CSS, Javascript and moment js.
 The following animation demonstrates the application functionality:
 
 
-![Git](/Assets/Work Day Planner.gif) 
+![Git](https://github.com/tarazin/Day-Planner/blob/master/Assets/Work%20Day%20Planner.gif) 
 
 
 
